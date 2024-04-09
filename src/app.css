@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Montserrat;
+    src: url("/resources/fonts/MontserratVariable.ttf");
+}
+
+body {
+    background: url("/resources/media/bg_water.jpg")  no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Contents */
+@layer components {
+    .glass {
+        @apply backdrop-blur-md backdrop-brightness-50 rounded-lg
+    }
+
+    .search-box {
+        @apply flex flex-col items-center gap-8;
+        @apply px-0 py-10 pt-12;
+
+        @apply glass;
+
+        @apply [&>*]:text-center text-lg sm:text-xl md:text-2xl font-bold
+    }
+
+    .basic-center {
+        @apply flex items-center justify-center
+    }
+}
+
+
+/* Buttons */
+@layer components {
+    .btn-chip-gray {
+        @apply bg-neutral-400 font-semibold rounded-full uppercase text-xs text-neutral-800 px-2.5 py-1 hover:bg-neutral-300 flex items-center select-none cursor-pointer transition-all
+    }
+    .btn-chip-indigo {
+        @apply bg-indigo-500 font-semibold rounded-full uppercase text-sm w-max text-white px-6 py-3 hover:brightness-110 active:scale-95 flex items-center select-none cursor-pointer transition-all
+    }
+}
+
+/* Logos & Pride Flags */
+.generic-logo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    @apply aspect-square w-6 h-6 active:scale-90 transition-all;
+}
+.logo {
+    background-image: url("/resources/media/logos/logo.svg");
+}
+
+.bisexual {
+    background-image: url("/resources/media/logos/bisexual.svg");
+}
+
+.enby {
+    background-image: url("/resources/media/logos/enby.svg");
+}
+
+.gay {
+    background-image: url("/resources/media/logos/gay.svg");
+}
+
+.genderfluid {
+    background-image: url("/resources/media/logos/genderfluid.svg");
+}
+
+.lesbian {
+    background-image: url("/resources/media/logos/lesbian.svg");
+}
+
+.pan {
+    background-image: url("/resources/media/logos/pan.svg");
+}
+
+.progress {
+    background-image: url("/resources/media/logos/progress.svg");
+}
+
+.trans {
+    background-image: url("/resources/media/logos/trans.svg");
+}

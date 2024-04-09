@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540" height="390" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <rect width="540" height="130" rx="66" fill="#ff000e"/>
+  <rect y="260" width="540" height="130" rx="66" fill="#880082"/>
+  <rect y="65" width="540" height="65" fill="#ff5000"/>
+  <rect y="130" width="540" height="65" fill="#fad220"/>
+  <rect y="195" width="540" height="65" fill="#138f3e"/>
+  <rect y="260" width="540" height="65" fill="#3558a0"/>
+  <!--translate by -46 for each chevron:-->
+  <!--<polygon points="0,0 46,0 260,195 46,390 0,390"/>-->
+  <!--intersect with:-->
+  <!--<rect width="540" height="390" rx="66"/>-->
+  <path d="m48.605 2.375c-28.056 7.6062-48.605 33.097-48.605 63.625v258c0 30.528 20.549 56.019 48.605 63.625l211.39-192.62-211.39-192.62z" fill="#292f33"/>
+  <path d="m20.23 18.434c-12.463 11.992-20.23 28.825-20.23 47.566v258c0 18.742 7.7674 35.574 20.23 47.566l193.77-176.57-193.77-176.57z" fill="#8a4b38"/>
+  <path d="m3.4277 45.039c-2.1934 6.5869-3.4277 13.619-3.4277 20.961v258c0 7.3424 1.2344 14.374 3.4277 20.961l164.57-149.96-164.57-149.96z" fill="#5dadec"/><path d="m0 83.832v222.34l122-111.17-122-111.17z" fill="#f4abba"/>
+  <path transform="translate(-184)" d="m184 125.75v138.5l76-69.252-76-69.252z" fill="#fff"/>
+</svg>
