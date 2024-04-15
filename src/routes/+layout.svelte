@@ -33,7 +33,7 @@
 </script>
 
 
-<header class="fixed w-full h-[32px] sm:h-[48px] z-[99] px-2   flex justify-center sm:justify-between items-center   bg-neutral-800 text-neutral-100 font-semibold">
+<header class="fixed drop-shadow-lg w-full h-[32px] sm:h-[48px] z-[99] px-2   flex justify-center sm:justify-between items-center   bg-neutral-800 text-neutral-100 font-semibold">
     <!--Pride Flag Logo-->
     <div class="flex gap-2 items-center">
         <div id="pride-logo" class="generic-logo" on:click={cycleLogo} on:keydown={cycleLogo} role="button" tabindex="-1"/>

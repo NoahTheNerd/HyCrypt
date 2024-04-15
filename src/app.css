@@ -7,9 +7,20 @@
     src: url("/resources/fonts/MontserratVariable.ttf");
 }
 
+@font-face {
+    font-family: Minecraft Seven;
+    src: url("/resources/fonts/MinecraftSeven.otf");
+}
+
+
 body {
     background: url("/resources/media/bg_water.jpg")  no-repeat center center fixed;
     background-size: cover;
+}
+
+.minecraft {
+    @apply font-minecraft font-normal;
+    text-shadow: 0.1em 0.1em 0 #000;
 }
 
 /* Contents */
@@ -27,6 +38,10 @@ body {
         @apply [&>*]:text-center text-lg sm:text-xl md:text-2xl font-bold
     }
 
+    .search-type-chip {
+        @apply glass py-2 flex-1 rounded-full text-center uppercase font-semibold
+    }
+
     .basic-center {
         @apply flex items-center justify-center
     }
@@ -39,7 +54,7 @@ body {
         @apply bg-neutral-400 font-semibold rounded-full uppercase text-xs text-neutral-800 px-2.5 py-1 hover:bg-neutral-300 flex items-center select-none cursor-pointer transition-all
     }
     .btn-chip-indigo {
-        @apply bg-indigo-500 font-semibold rounded-full uppercase text-sm w-max text-white px-6 py-3 hover:brightness-110 active:scale-95 flex items-center select-none cursor-pointer transition-all
+        @apply bg-indigo-600 font-semibold rounded-full uppercase text-sm w-max text-white px-6 py-3 hover:brightness-125 active:scale-95 flex items-center select-none cursor-pointer transition-all
     }
 }
 
